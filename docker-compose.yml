@@ -36,7 +36,7 @@ services:
       - "443:443"
     volumes:
       - wordpress:/var/www/html
-      - /path/to/repo/nginx-conf-folder/:/etc/nginx/conf.d
+      - /nginx-conf/:/etc/nginx/conf.d
 # add this volumes section here  <==================
 volumes:
   wordpress:
